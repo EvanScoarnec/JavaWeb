@@ -12,6 +12,10 @@ class arbre {
     toString(){
         return this.id+" : "+this.nom;
     }
+
+    age(){
+        return new Date().getFullYear() = this.annee;
+    }
   
 }
 class Point{
